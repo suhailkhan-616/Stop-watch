@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@200&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: 'Poppins', cursive;
+  --white-color: #e1d5d5;
+  --blue-color: #376857;
+}
+
+body {
+  font-family: var(--primary-font) !important;
+  background-image: url(http://wallup.net/wp-content/uploads/2016/01/129462-3D-simple_background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#design_watch {
+  width: 800px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+h1 {
+  color: #111212 !important;
+  font-weight: 100 !important;
+  font-size: 5em !important;
+  text-transform: uppercase;
+}
+
+
+#minuts,
+#seconds,
+#tens,
+p {
+  font-size: 3em;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border-radius: 5px;
+  background: transparent;
+  color: var(--white-color);
+  border: 1px solid;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  margin: 10px;
+  width: 180px;
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  background-color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  color: var(--white-color);
+}
